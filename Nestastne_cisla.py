@@ -12,5 +12,5 @@ for cislo in range (1,21):
     elif cislo % 2 == 0:
         state = "Parne"
     else:
-        state = "Neparne"
+        state = "Neparne cislo"
     print(f"{cislo} je {state}")
