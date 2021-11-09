@@ -11,6 +11,10 @@
 # def return_day():
 #     pass
 #
+import random
+
+num = random.randint(1,7)  # numbers 1 - 7
+
 def return_day(num):
     days = ["Sunday","Monday", "Tuesday","Wednesday","Thursday","Friday","Saturday"]
     # Check to see if num valid
@@ -18,5 +22,6 @@ def return_day(num):
         # use num - 1 because lists start at 0 
         return days[num-1]
     return None
+print(f"Numer {num} refers to {return_day(num)}")
 
-print(return_day(1))
+    # print(f"{index}: {colors[index]}")
